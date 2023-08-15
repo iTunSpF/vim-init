@@ -22,7 +22,7 @@
 
 ```bash
 cd ~/.vim
-git clone https://github.com/skywind3000/vim-init.git
+git clone https://github.com/iTunSpF/vim-init.git
 ```
 
 然后创建你的 `~/.vimrc` 文件，里面只有一句话：
@@ -33,7 +33,7 @@ source ~/.vim/vim-init/init.vim
 
 请调整你的终端软件，确保对 ALT 键的支持，以及 Backspace 键发送正确扫描码：
 
-[终端软件下正确支持 ALT 键和 Backspace 键](https://github.com/skywind3000/vim-init/wiki/Setup-terminals-to-support-ALT-and-Backspace-correctly)
+[终端软件下正确支持 ALT 键和 Backspace 键](https://github.com/iTunSpF/vim-init/wiki/Setup-terminals-to-support-ALT-and-Backspace-correctly)
 
 然后启动 Vim，在命令行运行 `:PlugInstall` 安装依赖插件即可。
 
@@ -51,11 +51,11 @@ source ~/.vim/vim-init/init.vim
 
 最好 fork 一份到你自己的仓库，然后不断修改，把它修改成你自己的东西，平时要更新时到这里同步下上游仓库，然后自己合并一下即可。
 
-除去 vim-plug 额外安装的插件外，本配置自带一些依赖较大的[插件](https://github.com/skywind3000/vim-init/wiki/Integrated-Plugins)，保证内网连不了网的情况下，把本配置压缩包解压一下就能跑得起来，且基本功能可用，它们都比较简单，往往一两个文件，分布于 `plugin` 和 `autoload` 两个目录中，你可以根据自己需要增改。
+除去 vim-plug 额外安装的插件外，本配置自带一些依赖较大的[插件](https://github.com/iTunSpF/vim-init/wiki/Integrated-Plugins)，保证内网连不了网的情况下，把本配置压缩包解压一下就能跑得起来，且基本功能可用，它们都比较简单，往往一两个文件，分布于 `plugin` 和 `autoload` 两个目录中，你可以根据自己需要增改。
 
 # 帮助
 
-既然是全中文注释，帮助主要看 [init-keymaps.vim](https://github.com/skywind3000/vim-init/blob/master/init/init-keymaps.vim) 和 [init-plugins.vim](https://github.com/skywind3000/vim-init/blob/master/init/init-plugins.vim) 两个文件，每个点我都写满了注释了，也是未来你自己可能修改的最多的两个文件。每次你修改或者调试了单个 .vim 配置文件后，命令行输入 `:so %` 即可重新载入，so 是 `source` 的简写，意思是加载脚本，`%` 代表当前正在编辑脚本的名字。
+既然是全中文注释，帮助主要看 [init-keymaps.vim](https://github.com/iTunSpF/vim-init/blob/master/init/init-keymaps.vim) 和 [init-plugins.vim](https://github.com/iTunSpF/vim-init/blob/master/init/init-plugins.vim) 两个文件，每个点我都写满了注释了，也是未来你自己可能修改的最多的两个文件。每次你修改或者调试了单个 .vim 配置文件后，命令行输入 `:so %` 即可重新载入，so 是 `source` 的简写，意思是加载脚本，`%` 代表当前正在编辑脚本的名字。
 
 # Credit
 
